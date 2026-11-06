@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Bohemia_Bar from './Bohemia';
 import Carta_Bohemia from './pages/Carta';
