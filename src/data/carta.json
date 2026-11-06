@@ -1,0 +1,201 @@
+{
+  "restaurante": "Bohemia Badajoz",
+  "moneda": "EUR",
+  "fuente": "https://mybakarta.com/Restaurante-Bohemia",
+  "cartas": [
+    {
+      "id": "comida",
+      "nombre": "Carta Comida",
+      "categorias": [
+        {
+          "id": "entrantes",
+          "nombre": "Entrantes",
+          "platos": [
+            { "id": "churros-de-pescado", "nombre": "Churros de pescado", "precio": 15.0, "alergenos": [] },
+            { "id": "pan-y-mantequilla", "nombre": "Pan y mantequilla", "precio": 1.5, "alergenos": ["gluten", "lacteos"] },
+            { "id": "papas-arrugadas-con-mojo", "nombre": "Papas arrugadas con mojo", "precio": 6.0, "alergenos": ["gluten", "sulfitos"] },
+            { "id": "papas-bravas", "nombre": "Papas bravas", "precio": 7.0, "alergenos": ["crustaceos"] },
+            { "id": "papas-fritas", "nombre": "Papas fritas", "precio": 3.5, "alergenos": [] },
+            { "id": "carpaccio-de-tomate-y-anchoas", "nombre": "Carpaccio de tomate y anchoas", "precio": 11.0, "alergenos": [] },
+            { "id": "camarones", "nombre": "Camarones", "precio": 15.0, "alergenos": ["crustaceos"] },
+            { "id": "ensalada-templada", "nombre": "Ensalada templada", "precio": 13.0, "alergenos": ["pescado"] },
+            {
+              "id": "croquetas-de-pollo-pescado",
+              "nombre": "Croquetas de pollo/pescado",
+              "precio": 10.0,
+              "alergenos": [],
+              "destacado": true,
+              "descripcion": "Cremosas por dentro y crujientes por fuera. De pollo o de pescado.",
+              "foto": "/images/platos/croquetas.jpg"
+            },
+            { "id": "lapas", "nombre": "Lapas", "precio": 16.0, "alergenos": ["moluscos"] },
+            {
+              "id": "gambas-al-ajillo",
+              "nombre": "Gambas al ajillo",
+              "precio": 12.0,
+              "alergenos": ["crustaceos"],
+              "destacado": true,
+              "descripcion": "Gambas en aceite de ajo, para mojar pan sin vergüenza.",
+              "foto": "/images/platos/gambas-al-ajillo.jpg"
+            },
+            {
+              "id": "pulpo-a-la-brasa-con-batata",
+              "nombre": "Pulpo a la brasa con batata",
+              "precio": 24.0,
+              "alergenos": ["moluscos"],
+              "destacado": true,
+              "descripcion": "Pulpo tierno, asado a la brasa y servido sobre cremosa batata",
+              "foto": "/images/platos/pulpo-brasa.jpg"
+            },
+            { "id": "timbal-de-batata-y-bacalao", "nombre": "Timbal de batata y bacalao", "precio": 15.0, "alergenos": [] },
+            { "id": "boquerones-fritos", "nombre": "Boquerones fritos", "precio": 10.0, "alergenos": ["pescado", "huevos"] },
+            { "id": "revuelto-de-gambas-y-espinaca", "nombre": "Revuelto de gambas y espinaca", "precio": 15.0, "alergenos": ["crustaceos", "pescado", "moluscos"] },
+            { "id": "queso-plancha", "nombre": "Queso plancha", "precio": 12.0, "alergenos": ["lacteos"] },
+            { "id": "queso-herreno", "nombre": "Queso herreño", "precio": 10.0, "alergenos": ["lacteos"] }
+          ]
+        },
+        {
+          "id": "pescado",
+          "nombre": "Pescado",
+          "platos": [
+            { "id": "fritura-de-pescado", "nombre": "Fritura de pescado", "descripcion": "Para 2 personas", "precio": 30.0, "alergenos": [] },
+            { "id": "morena-frita", "nombre": "Morena frita", "precio": 16.0, "alergenos": [] },
+            { "id": "calamares-saharianos-a-la-romana", "nombre": "Calamares saharianos a la romana", "precio": 20.0, "alergenos": [] },
+            { "id": "cabrilla-frita", "nombre": "Cabrilla frita", "precio": 19.0, "alergenos": [] },
+            { "id": "peto-plancha", "nombre": "Peto plancha", "precio": 18.0, "alergenos": ["pescado"] },
+            { "id": "vieja-a-la-plancha-o-frita", "nombre": "Vieja a la plancha o frita", "precio": 17.0, "alergenos": ["pescado"] },
+            { "id": "rabil-plancha", "nombre": "Rabil plancha", "precio": 20.0, "alergenos": [] },
+            {
+              "id": "pescado-de-temporada",
+              "nombre": "Pescado de temporada",
+              "descripcion": "Alfonsiño, pejeperro, lirio, etc.",
+              "precio": null,
+              "alergenos": []
+            }
+          ]
+        },
+        {
+          "id": "carne-a-la-brasa",
+          "nombre": "Carne a la brasa",
+          "platos": [
+            {
+              "id": "secreto-iberico-jack-daniels",
+              "nombre": "Secreto ibérico con salsa Jack Daniels",
+              "precio": 20.0,
+              "alergenos": [],
+              "destacado": true,
+              "descripcion": "Jugoso secreto a la brasa con nuestra salsa Jack Daniels",
+              "foto": "/images/platos/secreto-iberico.jpg"
+            },
+            { "id": "solomillo-brasa", "nombre": "Solomillo brasa", "precio": 19.0, "alergenos": [] },
+            { "id": "carne-fiesta", "nombre": "Carne fiesta", "precio": 15.0, "alergenos": [] },
+            { "id": "combinado-de-chorizo-y-chistorra", "nombre": "Combinado de chorizo y chistorra", "precio": 14.0, "alergenos": [] }
+          ]
+        },
+        {
+          "id": "postre",
+          "nombre": "Postre de la casa",
+          "platos": [
+            {
+              "id": "postre-de-la-casa",
+              "nombre": "Postre de la casa",
+              "precio": 5.5,
+              "alergenos": ["huevos", "lacteos", "frutos_de_cascara", "cacahuetes", "soja", "sesamo", "altramuces", "gluten"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vinos",
+      "nombre": "Carta Vinos",
+      "categorias": [
+        {
+          "id": "vino-blanco",
+          "nombre": "Vino Blanco",
+          "platos": [
+            { "id": "blanco-copa", "nombre": "Copa de vino", "precio": 1.7 },
+            { "id": "marques-de-caceres", "nombre": "Marqués de Cáceres", "precio": 18.0 },
+            { "id": "brumas-de-ayosa-seco", "nombre": "Brumas de Ayosa seco", "precio": 20.0 },
+            { "id": "blanco-medio-litro", "nombre": "1/2 L blanco", "precio": 9.0 },
+            { "id": "blanco-cuarto-litro", "nombre": "1/4 L blanco", "precio": 4.5 },
+            { "id": "brumas-de-ayosa-afrutado", "nombre": "Brumas de Ayosa afrutado", "precio": 18.0 },
+            { "id": "orchilla-seco", "nombre": "Orchilla seco", "precio": 33.0 },
+            { "id": "vina-frontera-afrutado", "nombre": "Viña Frontera afrutado", "precio": 21.0 }
+          ]
+        },
+        {
+          "id": "vino-tinto",
+          "nombre": "Vino Tinto",
+          "platos": [
+            { "id": "solaz", "nombre": "Solaz", "precio": 16.0 },
+            { "id": "tinto-copa", "nombre": "Copa de vino", "precio": 1.7 },
+            { "id": "tinto-cuarto-litro", "nombre": "1/4 L tinto", "precio": 4.5 },
+            { "id": "tinto-medio-litro", "nombre": "1/2 L tinto", "precio": 9.0 },
+            { "id": "vina-frontera-vijariego-negro", "nombre": "Viña Frontera Vijariego Negro", "precio": 20.0 },
+            { "id": "12-linajes", "nombre": "12 Linajes, Ribera del Duero", "descripcion": "Roble 2020", "precio": 19.0 },
+            { "id": "el-sitio-tinto", "nombre": "El Sitio, tinto", "precio": 30.0 },
+            { "id": "damana-5", "nombre": "Damana 5", "precio": 18.0 },
+            { "id": "pepe-yera", "nombre": "Pepe Yera", "precio": 21.0 },
+            { "id": "finca-engalia-roble", "nombre": "Finca Engalia Roble", "precio": 15.0 },
+            { "id": "vina-frontera-tradicional", "nombre": "Viña Frontera Tradicional", "precio": 17.0 },
+            { "id": "vina-frontera-maceracion-carbonica", "nombre": "Viña Frontera Maceración Carbónica", "precio": 20.0 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bebidas",
+      "nombre": "Carta Bebidas",
+      "categorias": [
+        {
+          "id": "refrescos-y-cervezas",
+          "nombre": "Refrescos y cervezas",
+          "platos": [
+            { "id": "dorada-especial", "nombre": "Dorada Especial", "precio": 2.2 },
+            { "id": "appletiser", "nombre": "Appletiser", "precio": 2.1 },
+            { "id": "dorada-pilsen", "nombre": "Dorada Pilsen", "precio": 2.0 },
+            { "id": "heineken", "nombre": "Heineken", "precio": 1.8 },
+            { "id": "red-bull", "nombre": "Red Bull", "precio": 3.0 },
+            { "id": "jugo", "nombre": "Jugo", "precio": 1.8 },
+            { "id": "mahou-5-estrellas", "nombre": "Mahou 5 Estrellas", "precio": 2.5 },
+            { "id": "cana-cerveza", "nombre": "Caña de cerveza", "descripcion": "0,35 cl", "precio": 2.0 },
+            { "id": "refrescos", "nombre": "Refrescos", "precio": 2.0 },
+            { "id": "mahou-00", "nombre": "Mahou 0,0", "precio": 2.5 },
+            { "id": "agua-1-5l", "nombre": "Agua 1,5 L", "precio": 1.8 },
+            { "id": "agua-con-gas", "nombre": "Agua con gas", "precio": 1.7 },
+            { "id": "agua-0-5l", "nombre": "Agua 0,5 L", "precio": 1.5 },
+            { "id": "jarra-0-5l", "nombre": "Jarra 0,5 L", "precio": 3.5 }
+          ]
+        },
+        {
+          "id": "alcohol",
+          "nombre": "Alcohol",
+          "platos": [
+            { "id": "combinado-importacion", "nombre": "Combinado de importación", "precio": 8.0 },
+            { "id": "copa-general", "nombre": "Copa general", "precio": 4.0 },
+            { "id": "martini", "nombre": "Martini", "precio": 5.0 },
+            { "id": "combinado-nacional", "nombre": "Combinado nacional", "precio": 6.0 },
+            { "id": "etiqueta-negra", "nombre": "Etiqueta Negra (Black Label)", "precio": 8.0 },
+            { "id": "combinado-nacional-red-bull", "nombre": "Combinado nacional con Red Bull", "precio": 7.0 },
+            { "id": "combinado-importacion-red-bull", "nombre": "Combinado de importación con Red Bull", "precio": 9.0 },
+            { "id": "copa-ron", "nombre": "Copa de ron", "precio": 4.0 },
+            { "id": "copa-licor", "nombre": "Copa de licor", "precio": 4.0 }
+          ]
+        },
+        {
+          "id": "caliente",
+          "nombre": "Caliente",
+          "platos": [
+            { "id": "cafe-con-leche", "nombre": "Café con leche", "precio": 1.8 },
+            { "id": "barraquito", "nombre": "Barraquito", "precio": 1.5 },
+            { "id": "colacao", "nombre": "Cola Cao", "precio": 2.0 },
+            { "id": "barraquito-especial", "nombre": "Barraquito especial", "precio": 3.0 },
+            { "id": "cafe-solo", "nombre": "Café solo", "precio": 1.2 },
+            { "id": "infusiones", "nombre": "Infusiones", "precio": 2.0 }
+          ]
+        }
+      ]
+    }
+  ]
+}

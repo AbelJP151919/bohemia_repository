@@ -1,0 +1,21 @@
+{"opiniones": [
+    {
+      "id": "comentario-1",
+      "nombre": "Jose Luis Sanz Gonzalez",
+      "comentario": "Comida agradable en familia, ambiente y localización tranquila. Carta elaborada y buena calidad precio. ",
+      "fecha": "2026-10-14"
+    },
+    {
+      "id": "comentario-2",
+      "nombre": "Manuel Hernandez",
+      "comentario": "Grata experiencia en este restaurante de Badajoz totalmente recomendable. Buscando un sitio para comer, nos alegramos de encontrar este lugar, por el trato, servicio, amabilidad y simpatía del personal que te hacen sentir como en casa.",
+      "fecha": "2026-04-06"
+    },
+    {
+      "id": "comentario-3",
+      "nombre": "JuanCarlos Herrera Maya",
+      "comentario": "Un sitio en una ubicación perfecta, terraza muy amplia y un lugar idóneo para venir con niños a cenar ya que tienen un parque justo en frente.",
+      "fecha": "2026-08-10"
+    }
+  ]
+}

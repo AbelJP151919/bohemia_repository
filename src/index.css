@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Tu regla de fuentes personalizada */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, Montserrat;
+  background-color: #14161c !important; /* Fondo oscuro */
+  color: #e8e2d5; /* Color de texto claro */
+}
